@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    height: 50vh;
+}   
+
+.formvisit{
+    border: solid 2px red;
+    padding: 15px;
+}
+
+
+
+.MemberInformation{
+
+    flex-direction: column;
+    padding: 100px;
+    border: solid 2px red;
+
+}
+
+.Logistic{
+    flex-direction: column;
+    padding: 100px;
+    border: solid 2px red;
+}
+
+.Superior {
+    display: flex;
+    gap: 8px;
+}
+
+.Inferior {
+    display: flex;
+    gap: 8px;
+}

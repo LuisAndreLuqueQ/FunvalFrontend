@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1></h1>
+    
+    <form class="formvisit">
+
+        <h2>New Visit Registration</h2>
+        <p>Documenting pastoral care and fellowship visits across the Stake.</p>
+        <div class="Superior">  
+            <div class="MembenInformation">
+            <h3>MEMBER INFORMATION</h3>
+                
+                <label for="name">Full name</label>
+                <input type="text" id="name" placeholder="Enter member name"> <br>
+
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="Street, City, Postal Code"> <br>
+
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" placeholder="+1 (555) 000-0000">
+            </div>
+
+            <div class="Logistics">
+            <h3>LOGISTICS</h3>
+                
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="mm/dd/yyyy"> <br>
+
+                <label for="Status">Visit Status:</label>
+                <select id="Status" name="Status">
+                <option value="">-- Status --</option>
+                <option value="Completed">Completed</option>
+                <option value="Uncompleted">Uncompleted</option>
+                </select>
+
+                <label for="registro">Full name of registrar</label>
+                <input type="number" id="registro" placeholder="+1 (555) 000-0000">
+            </div>
+            
+        <div class="Inferior">
+            <div class="VisitDetails">
+            <h3>VISIT DETAILS</h3>
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="5" cols="40" 
+                placeholder="Describe the visit context, needs identifid, or spiritual messages shared..."></textarea>
+            </div>
+            <button>Guardar Registro</button>
+        </div>
+     
+    </form>
+  </body>
+</html>
