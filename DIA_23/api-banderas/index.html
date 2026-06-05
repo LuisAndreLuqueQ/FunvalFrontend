@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>api-banderas</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    
+    <script src="./scripts/todasLasBanderas.js" type="module"></script>
+
+    <script src="./scripts/darkmode.js" type= "module"></script>
+  </head>
+  <body>
+      <!-- seccion header paises -->
+    <nav class=" h-25 flex items-center justify-between px-5 shadow md:px-15  dark:bg-slate-700 dark:text-white">
+      <p class="font-bold">Where in the world?</p>
+      <button id="darkmode"> 🌙 Dark Mode</button>
+    </nav>
+    <main class="bg-gray-100 pt-5 px-5 dark:bg-slate-900">
+
+      <!-- seccion busqueda paises -->
+      
+      <section class="flex flex-col md:flex-row gap-4 mb-5 justify-between md:px-15 md:py-7">
+        <input id="filtroInput" class="bg-white px-7 py-5 shadow md:w-100 dark:bg-slate-700 dark:text-white" type="text" placeholder="Search for a country...">
+        <select id="filtroRegion" class="bg-white w-62.5 px-8 py-4 shadow dark:bg-slate-700 dark:text-white" name="" id="">
+          <option value="Todas">Todas</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">America</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europa</option>
+          <option value="Oceania">Oceania</option>
+          <option value="Polar">Polar</option>
+        </select>
+      </section>
+
+      <!-- seccion tarjetas paises -->
+      
+      <section id="banderas" class="flex flex-col items-center gap-10 md:flex-row md:flex-wrap">
+        
+        
+      </section>
+
+    </main>
+
+
+  
+  </body>
+</html>
